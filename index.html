@@ -299,7 +299,7 @@ gtag('js', new Date());
                         <textarea id="message" name="message" required></textarea>
                     </div>
                     
-                    <div class="g-recaptcha" data-sitekey="6Lee9ZwsAAAAAO3duDZb2gPDgm_bNUUiyTAC9HAq"></div>
+                    <div class="g-recaptcha" data-sitekey="6Ldk-pwsAAAAAPt0w73xzkQ04rDfzVTY-5UzCmoa"></div>
                     
                     <button type="submit" id="submitBtn">🚀  Envoyer le Message</button>
                 </form>
@@ -375,7 +375,7 @@ gtag('js', new Date());
             submitBtn.disabled = true;
             submitBtn.textContent = '📤 Envoi...';
             
-            emailjs.sendForm('service_yrqce0e', 'template_1z7nenr', this)
+            emailjs.sendForm('service_hq26tsa', 'template_1z7nenr', this)
                 .then(() => {
                     responseMsg.innerHTML = '<div class="success">✅ Message envoyé !</div>';
                     this.reset();

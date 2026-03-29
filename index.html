@@ -377,7 +377,7 @@
         window.addEventListener('load', loadGallery);
 
         // FORMULAIRE reCAPTCHA + EmailJS ✅
-        emailjs.init("cVxLURSEwHW-KkxKD");
+        emailjs.init("LwMaLUwav_3oZUAzT");
         document.getElementById('contactForm').addEventListener('submit', function(e) {
             e.preventDefault();
             const submitBtn = document.getElementById('submitBtn');
@@ -391,7 +391,7 @@
             submitBtn.disabled = true;
             submitBtn.textContent = '📤 Envoi...';
             
-            emailjs.sendForm('service_hq26tsa', 'template_1z7nenr', this)
+            emailjs.sendForm('service_oui0zyp', 'template_cgu59nh', this)
                 .then(() => {
                     responseMsg.innerHTML = '<div class="success">✅ Message envoyé !</div>';
                     this.reset();
